@@ -277,7 +277,7 @@ yyaxis right
 bar(td,DATA(:,7))
 alpha(0.5)
 ylabel('Daily New Cases')
-legend('Hasan et al.','95% CI','Bettencourt et al.','95% CI','Rt=1','New Cases')
+legend('New method','95% CI','Bettencourt et al.','95% CI','Rt=1','New Cases')
 
 figure(3)
 subplot(2,1,1)
@@ -330,4 +330,4 @@ yyaxis right
 bar(td,DATA(:,4))
 alpha(0.5)
 ylabel('Active Cases')
-legend('Hasan et al.','95% CI','Rt=1','Active Cases')
+legend('New method','95% CI','Rt=1','Active Cases')
